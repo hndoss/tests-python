@@ -8,8 +8,7 @@ ADD data/hitos.json data/
 ADD HitosIV/* HitosIV/
 
 RUN pip install --no-cache-dir -r requirements.txt && \
-        rm requirements.txt && \
-        mkdir HitosIV data
+        rm requirements.txt
 
 EXPOSE 80
 
